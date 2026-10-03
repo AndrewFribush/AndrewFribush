@@ -2,7 +2,7 @@
 
 I'm a software and computer engineer who leads teams and writes production code. I've shipped production software since 2008, most recently in AI, data systems, and commerce.
 
-For four and a half years I led engineering work at Abstract, including its production AI practice. That work included multilingual speech pipelines, surgical-training assessment, storefronts, and the integrations behind them. I also cofounded [MemoryWell](https://technical.ly/startups/halcyon-sixth-cohort-fellows/).
+For four and a half years I led engineering work at Abstract, including its production AI practice. That work included multilingual speech pipelines, surgical-training assessment, storefronts, and the integrations behind them.
 
 I like working out what a system can promise, then testing the awkward cases. The happy path generally has enough advocates.
 

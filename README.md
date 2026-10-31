@@ -10,11 +10,12 @@ I like working out what a system can promise, then testing the awkward cases. Th
 
 | Project | What to look at |
 | --- | --- |
+| [TokenPylon](https://tokenpylon.vercel.app) | Free price index and cost-optimization API for LLMs, live with REST and MCP access. Tracks daily prices for about 6,000 listings across about 150 providers, ranks the cheapest model that is good enough for a task, and makes nightly test calls to check billed prices against quoted ones. The open-source [recorder core](https://github.com/AndrewFribush/tokenpylon-recorder-core) is a Go proxy that records LLM usage metadata from JSON and streaming responses. It handles cache accounting, cancellation, and missing usage while keeping message bodies out of event records, and includes a local demo. |
+| [The Cuneiform Project](https://cuneiformproject.com) | Public-interest research initiative using AI-assisted sign recognition and basic translation to help scholars open the historical record in cuneiform tablets. |
 | [GPU threshold join](https://github.com/AndrewFribush/gpu-threshold-join) | Exhaustive cosine-similarity joins in CUDA with an explicit budget for temporary query memory. Reproducible benchmarks include setup costs, a predeclared holdout, and the cases where the optimization loses. |
 | [Interactive figures](https://github.com/AndrewFribush/interactive-figures) | Route planning, stable matching, job-search probabilities, and the Odyssey, rendered in React, TypeScript, and SVG. Change the inputs, inspect the algorithms, or run the figures locally. |
 | [fedpipe](https://github.com/AndrewFribush/fedpipe) | Government-data MCP server and TypeScript SDK. My fork of Lucas Elzinga's work adds live API checks, cross-source entity resolution, and broader coverage. An investigation example records its request provenance. |
 | [Tersena engine](https://github.com/AndrewFribush/tersena-engine) | Cosmetic-ingredient parsing and matching for chemical commas, OCR errors, and uncertain identities. Includes explicit unknowns, rule-text extraction, and synthetic offline examples. |
-| [TokenPylon recorder core](https://github.com/AndrewFribush/tokenpylon-recorder-core) | Go proxy that records LLM usage metadata from JSON and streaming responses. Handles cache accounting, cancellation, and missing usage while keeping message bodies out of event records. Includes a local demo. |
 | [Paper Sovereign](https://github.com/AndrewFribush/paper-sovereign) | Playable Python simulation with a transport graph, coupled economy, and separate models of reality and the state's beliefs. Fourteen provinces, twenty years, and unreliable reports to govern by. |
 
 ## Production work
